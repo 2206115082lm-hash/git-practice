@@ -1,0 +1,56 @@
+# ---- 操作系统 ----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# ---- 环境变量与密钥（切勿提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+coverage/
+.npm
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- 构建产物 ----
+*.exe
+*.dll
+*.o
+*.obj
+*.class
+target/
+out/
