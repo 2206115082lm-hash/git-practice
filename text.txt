@@ -6,4 +6,6 @@ commit:
     discard:放弃还没commit的文件更改（未提交）
     reset:把仓库强制退回到某个历史状态（单人使用的分支，还未提交远端仓库）
     revert:生成反向的提交来抵消某次commit（多人协作的分支）
-    
+
+feature的修改
+abc
